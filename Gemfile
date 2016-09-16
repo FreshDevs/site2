@@ -5,8 +5,6 @@ source 'https://rubygems.org'
 gem 'rails', '4.1.0'
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3', group: [:development, :test]
-# Use bootstrap library for styles
-gem 'bootstrap-sass', '3.3.1'
 # Use postgresql as the database for production
 group :production do
   gem 'pg'
@@ -14,6 +12,10 @@ group :production do
 end
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.3'
+# Use bootstrap library for styles
+gem 'bootstrap-sass', '3.3.1'
+#use Font Awesome library for icons
+gem 'font-awesome-sass', '4.2.0'
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
 # Use CoffeeScript for .js.coffee assets and views
